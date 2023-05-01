@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('bg/main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  /* logo */
+
+  #logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #7daa75;
+  opacity: 0.04;
+  transition: 0.6s ease-in;
+}
+#logo-container:hover {
+    transition: 0.6s ease-in;
+    opacity: 1;
+}
+#logo {
+  max-height: 3rem;
+  margin-right: 1rem;
+}
+
+#logo-text {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 0 5px black;
+  font-family: 'Indie Flower', cursive;
+}
+  
+  h1 {
+    margin-bottom: 2.5rem;
+    font-family: 'Indie Flower', cursive;
+    color: #c4eba5;
+    text-shadow: 0 0 5px black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    text-shadow: 0 0 5px black;
+  }
+  genre-select {
+    border-radius: 25px;
+    border: 1px solid #1db954;
+    background-color: rgb(217, 240, 195);
+    color: #f8b394;
+    text-shadow: 0 0 5px;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 1px solid #1db954;
+    background-color: rgb(217, 240, 195);
+    color: #f8b394;
+    text-shadow: 0 0 5px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #1db954;
+    color: #ebebeb;
+    text-shadow: 0 0 5px;
+    border: none;
+    border-radius: 14px;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #12833a;
+    transition: 0.6s ease-in-out;
+  }
+  
+  output {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+
+  .generated-link {
+    font-size: 1.5em;
+   
+    
+  }
+  
+a {
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 0 0 5px black;
+    color: rgb(255, 255, 255);
+    text-decoration: underline dotted #12833a;
+}
