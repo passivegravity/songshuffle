@@ -5,27 +5,47 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="bg/spotify-32.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <div id="logo-container" class="logo-container">
-    <a href="https://github.com/LowOnGravity"><img src="bg/miwo.png" alt="logo" id="logo" /></a>
-    <p id="logo-text">Made with 💜 by Simon</p>
-  </div>
   <body>
+    <div id="logo-container" class="logo-container">
+      <a href="https://github.com/LowOnGravity"><img src="bg/miwo.png" alt="logo" id="logo" /></a>
+      <p id="logo-text">Made with 💜 by Simon</p>
+      <p id="logo-text2"><a href="https://lowongravity.github.io/">💌</a></p>
+      
+    </div>
     <h1>Spotify Random Song Generator</h1>
     <form>
       <label for="genre-select">Choose a Genre:</label>
       <select id="genre-select">
         <option value="rock">Rock</option>
         <option value="pop">Pop</option>
+         <option value="rap">Rap</option>
         <option value="hip-hop">Hip Hop</option>
+         <option value="motivation">Motivation</option>
         <option value="electronic">Electronic</option>
+        <option value="remix">Remix</option>
+        <option value="remix">Remix</option>
+           <option value="ukulele">Ukulele</option>
+        <option value="soda-pop">Soda Pop</option>
+
       </select>
       <button id="generate-button" type="button">Generate Random Song</button>
     </form>
+    <div id="player-container">
+      <div id="song-info-container">
+        <p id="song-title"></p>
+        <p id="song-artist"></p>
+      </div>
+      <div id="preview-error-text" class="preview-error-text"></div>
+      <div id="controls-container">
+    
+        <div id="song-progress-bar" class="progress-bar"></div>
+      </div>
+    </div>
     <p id="output-field"></p>
 
     <script src="script.js"></script>
