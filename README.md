@@ -7,6 +7,6 @@ Click on the song title to play 30s preview audio!
 
 # Idea Credits
 
-Thanks to [Corydon](https://github.com/ilovecry) for website idea.
+Thanks to [Ccry](https://github.com/ilovecry) for website idea.
 
 
