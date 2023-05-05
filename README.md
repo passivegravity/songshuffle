@@ -5,8 +5,14 @@ A comfy website that blesses you with random songs fetched from spotify, make yo
 
 Click on the song title to play 30s preview audio!
 
-# Idea Credits
+# Credits
 
-Thanks to [Cry](https://github.com/ilovecry) for website idea.
+ [Cry](https://github.com/ilovecry),
+
+I wanted to take a moment to express my sincere gratitude for the invaluable idea you shared with me.
+
+This website is a fruit of your creativity to kill my boredom.
+
+
 
 
