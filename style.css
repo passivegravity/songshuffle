@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('bg/main.jpg');
+    background-image: url('bg/main.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 4rem;
-  background-color: #7daa75;
+  background-color: #8b5aff;
   opacity: 0.04;
   transition: 0.6s ease-in;
 }
@@ -35,6 +35,7 @@ body {
 #logo {
   max-height: 3rem;
   margin-right: 1rem;
+  align-items: center;
 }
 
 #logo-text {
@@ -77,27 +78,28 @@ body {
   genre-select {
     border-radius: 25px;
     border: 1px solid #1db954;
-    background-color: rgb(217, 240, 195);
-    color: #f8b394;
+    background-color: #ba74c0;;
+    color: #c0749a;
     text-shadow: 0 0 5px;
   }
   select {
     padding: 0.5rem;
     font-size: 1rem;
     border-radius: 25px;
-    border: 1px solid #1db954;
-    background-color: rgb(217, 240, 195);
-    color: #f8b394;
-    text-shadow: 0 0 5px;
+    border: 1px solid #a682fa;
+    background-color: #8c5aff9a;;
+    color: #ffffff;
+   
+    text-shadow: 0 0 5px #fff;
   }
   
   button {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    background-color: #1db954;
-    color: #ebebeb;
-    text-shadow: 0 0 5px;
-    border: none;
+    background-color: #8c5aff9a;
+    color: #ffffff; 
+    text-shadow: 0 0 5px #fff;
+    border: 1px solid #a682fa;
     border-radius: 14px;
     font-family: 'Indie Flower', cursive;
     cursor: pointer;
@@ -105,7 +107,7 @@ body {
   }
   
   button:hover {
-    background-color: #12833a;
+    background-color: #cc648f;
     transition: 0.6s ease-in-out;
   }
   
@@ -125,10 +127,15 @@ body {
 a {
     font-family: 'Indie Flower', cursive;
     text-shadow: 0 0 5px black;
-    color: rgb(255, 255, 255);
+    color: #cc648f;
+    text-shadow: 0 0 5px #fff;
+    transition: 0.6s ease-in-out;
     text-decoration: underline dotted #12833a;
 }
-
+a:hover {
+  transition: 0.6s ease-in-out;
+  color: #4a80e4;
+}
 .progress-bar {
   width: 100%;
   height: 5px;
